@@ -17,6 +17,10 @@ git clone https://github.com/legionhunter/csp-subdomain-extractor.git
 cd csp-subdomain-extractor
 ```
 
+2. Download requirements
+```
+pip3 install -r requirements.txt
+```
 
 ## How To Run ⛏️
 
