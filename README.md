@@ -4,14 +4,8 @@ A Python tool to extract subdomains from Content Security Policy (CSP) headers o
 
 ## Features ✨
 - Extract subdomains from CSP headers
-- Smart protocol handling (HTTPS/HTTP fallback)
-  - Default: HTTPS first with HTTP fallback
-  - With `-m` flag: HTTP first with HTTPS fallback
 - Supports single URL or file input with multiple domains
-- Real-time results display
-- Save results to output file
-- Color-coded console output
-- Strict subdomain validation
+- Input as domain/subdomains/IPs
 
 ## Installation 📦
 
