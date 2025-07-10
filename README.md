@@ -18,6 +18,9 @@ cd csp-subdomain-extractor
 
 ## How To Run ⛏️
 
+Linux/WSL : python3
+Windows : python
+
 Single Input
 ```
 python3 csp_sub.py -u example.com
@@ -38,3 +41,16 @@ Save the results
 python3 csp_sub.py -f filename.txt -o output.txt
 python3 csp_sub.py -f ips.txt -m domain-to-match.tld -o output.txt
 ```
+
+
+## Features Pending 🚧
+- [ ] **User-Agent Randomization** — Rotate User-Agent headers to mimic real browsers and avoid detection
+- [ ]  **Multi-threading Support** — Improve performance by analyzing multiple targets concurrently
+- [ ] **Automatic Retries** — Retry failed requests up to a configurable number of times
+- [ ] **Request Throttling** — Add configurable delay between requests to reduce server load and avoid rate-limiting
+
+
+## ⚠️ Disclaimer
+This tool is intended for **educational, research, and authorized security testing purposes only**.  
+**Do not use it on systems or domains you do not own or have explicit permission to test.**  
+The author is **not responsible for any misuse or damage** caused by this tool.
