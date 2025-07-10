@@ -1,6 +1,9 @@
 # CSP Subdomain Extractor 🔍
 A Python tool to extract subdomains from Content Security Policy (CSP) headers of websites (domain/subdomain/IP)
 
+## Tool Demo
+Medium article will be added here soon.
+
 
 ## Features ✨
 - Extract subdomains from CSP headers
