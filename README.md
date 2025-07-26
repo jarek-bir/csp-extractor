@@ -25,8 +25,8 @@ A Python tool to extract subdomains from Content Security Policy (CSP) headers o
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/legionhunter/csp-subdomain-extractor.git
-cd csp-subdomain-extractor
+git clone https://github.com/jarek-bir/csp-extractor.git
+cd csp-extractor
 ```
 
 2. Install dependencies:
